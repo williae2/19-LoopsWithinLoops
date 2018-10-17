@@ -4,7 +4,7 @@ in the context of SEQUENCES OF SUB-SEQUENCES.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Elijah Williams.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -131,6 +131,7 @@ def multiply_numbers(sequence_of_lists):
     for k in range(len(sequence_of_lists)):
         for j in range(k):
             sequence_of_lists[k][j] = k * sequence_of_lists[k][j]
+
 
 def run_test_sum_numbers():
     """ Tests the    sum_numbers    function. """
